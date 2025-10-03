@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="css/full.css" media="only screen and (min-width: 960px)">
+    <link rel="stylesheet" href="css/tablet.css" media="only screen and (min-width: 481px) and (max-width: 959px)">
+    <link rel="stylesheet" href="css/phone.css" media="only screen and (min-width: 480px)">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="My Logo">
+        </div>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="project.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <main>
+        <h1>Contact Me</h1>
+        <p>This is the contact page where I provide my contact information.</p>
+
+        <form action="mailto:mariosolundu.onyido@ontariotechu.net" method="post" enctype="text/plain">
+            <p>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </p>
+            <p>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" pattern="[0-9+\-\s()]{7,}" placeholder="(123) 456-7890">
+            </p>
+            <p>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+                <button type="reset">Reset</button>
+            </p>
+        </form>
+    </main>
+
+    <footer>
+        <small>&copy; 2025 Mario Onyido. All Rights Reserved. <a href="mailto:mariosolundu.onyido@ontariotechu.net">My Email</a></small>
+    </footer>
+</body>
+</html>
