@@ -1,0 +1,61 @@
+html, body { margin: 0; padding: 0; }
+body {
+  font-family: Georgia, serif;
+  color: black;
+  line-height: 1.8;
+  background: linear-gradient(45deg, lightcyan, white, lightblue);
+}
+
+* { box-sizing: border-box; }
+
+header {
+  background: lightblue;
+  padding: 12px 0;
+  border-bottom: 1px solid lightgray;
+}
+header .logo, header nav, main { padding: 0 14px; }
+nav a { color: navy; text-decoration: none; margin-right: 12px; }
+nav a.active { font-weight: bold; }
+
+main {
+  background: white;
+  margin: 12px auto 16px;
+  padding: 0 14px 16px;
+}
+h1 { font-size: 1.5rem; margin: 10px 0; }
+h2 { font-size: 1.2rem; margin: 10px 0 8px; }
+p  { margin: 0 0 12px; }
+
+img { max-width: 100%; height: auto; border-radius: 6px; }
+
+/* Projects layout */
+.clearfix::after { content: ""; display: block; clear: both; }
+.project-list { margin: 0; }
+.project-item {
+  float: none;
+  width: 100%;
+  margin: 0 0 12px;
+  background: white;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+/* Touch-friendly buttons (contact page) */
+button, input[type="submit"], input[type="reset"] {
+  padding: 10px 12px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  background: lightcyan;
+  color: navy;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 12px 14px;
+  background: lightblue;
+  border-top: 1px solid lightgray;
+}
+footer a { color: navy; }
