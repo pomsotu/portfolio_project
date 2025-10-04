@@ -90,7 +90,7 @@ img { max-width: 100%; height: auto; border-radius: 6px; }
 
 .project-item:hover {
   background: white;
-  box-shadow: 0 2px 8px lightgray;
+  box-shadow: 0 2px 8px whitesmoke;
 }
 
 /* Footer */
